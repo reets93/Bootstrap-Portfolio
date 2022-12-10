@@ -1,0 +1,54 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --bannercolor: #EBF5FE;
+    --titlecolor: #00376E;
+    --bodycolordark: #333333;
+    --bodycolorlight: #ffffff;
+    --summaryblock: #1D2A37;
+    --titlefont: 'Raleway', sans-serif;
+    --bodyfont: 'Roboto', sans-serif;
+}
+
+.display-4 {
+    font-family: var(--titlefont);
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--titlecolor);
+}
+
+.lead {
+    font-family: var(--bodyfont);
+}
+
+.heroContainer {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #EBF5FE;
+    color: var(--titlecolor);
+}
+
+.navbar-brand {
+    color: var(--titlecolor);
+}
+
+.jumbotron {
+    background:none;
+}
+
+.hero-img {
+    border-radius: 12px;
+}
+
+/* .portfolio {
+    max-width: 90%;
+    justify-content: center;
+} */
