@@ -15,9 +15,15 @@
 
 .display-4 {
     font-family: var(--titlefont);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 40px;
     color: var(--titlecolor);
+}
+
+.card-title {
+    font-family: var(--titlefont);
+    font-weight: 600;
+    color: var(--titlecolor)
 }
 
 .lead {
@@ -36,6 +42,11 @@
     color: var(--titlecolor);
 }
 
+
+.bg-light {
+    background-color: purple;
+}
+
 .navbar-brand {
     color: var(--titlecolor);
 }
@@ -48,7 +59,96 @@
     border-radius: 12px;
 }
 
-/* .portfolio {
-    max-width: 90%;
+.portfolio-card img {
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.column {
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.portfolio, .contact {
+    margin-bottom: 5%;
+}
+
+.contact-link {
+    text-align: center;
+    padding: 20px;
+}
+
+.skills-item {
+    border-radius: 10px;
+    background-color: var(--bannercolor);
+    color: var(--titlecolor);
+    text-align: center;
+    text-justify: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.skills {
+    margin-bottom: 60px;
+}
+
+footer {
+    background-color: var(--bannercolor);
+    color: var(--titlecolor);
+    font-family: var(--titlefont);
+    min-height: 80px;
+    padding: 40px;
+}
+
+footer img {
+    max-height: 32px;
+    object-position: center;
+    align-items: center;
+}
+
+footer h6 {
+    text-align: center;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 40px;
+    grid-template-areas:
+    "e g l i"; 
+    align-content: center;
     justify-content: center;
-} */
+}
+
+#email {
+    grid-area: e;
+}
+
+#github {
+    grid-area: g;
+}
+
+#linkedin {
+    grid-area: l;
+}
+
+#instagram {
+    grid-area:i;
+}
+
+a:hover img{
+    max-height: 40px;
+    box-shadow: 5px 10px 20px #333333;
+
+    /* box-shadow: [horizontal offset] 
+    [vertical offset] 
+    [blur radius] 
+    [optional spread radius] 
+    [color]; */
+}

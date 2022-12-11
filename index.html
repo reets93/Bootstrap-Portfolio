@@ -12,12 +12,16 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/fa655c08b4.js" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
+
+    <!-- Hero Section -->
     <section class="hero">
 
+        <!-- NavBar Menu -->
         <div class="navContainer">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">Rita Fitchett</a>
@@ -42,8 +46,10 @@
                 </div>
             </nav>
         </div>
+        <!-- End NavBar Menu -->
 
-        <div class="jumbotron jumbotron-fluid container">
+        <!-- Jumbotron / About Me Section -->
+        <div class="jumbotron jumbotron-fluid container" id="about">
             <div class="row">
                 <div class="column col-lg-6">
                     <img class="hero-img" src="./images/headshot-500x334.png">
@@ -61,28 +67,203 @@
                 </div>
             </div>
         </div>
+        <!-- End of Jumbotron / About Me Section -->
     </section>
+    <!-- End of Hero section -->
 
-    <section class="portfolio">
+    <!-- Portfolio section -->
+    <section class="portfolio container" id="portfolio">
         <h1 class="display-4">Portfolio</h1>
+
+        <!-- Project Cards -->
         <div class="row">
-            <div class="column col-lg-10 card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+            <!-- Project 1 -->
+            <div class="column col-lg-12 card portfolio-card" style="width: 18rem;">
+                <img src="./images/p1.jpg" class="card-img-top" alt="laptop with code on the screen">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Horiseon</h5>
+                    <p class="card-text">HTML, CSS.
+                        <br> Refactoring code for a conceptual marketing agency to improve SEO and accessibility.
+                    </p>
+                    <a href="https://reets93.github.io/horiseon/" class="btn btn-primary">Go to the live project</a>
                 </div>
             </div>
         </div>
+        <!-- End Project 1 -->
+
+
+        <div class="row">
+            <!-- Project 2 -->
+            <div class="column col-lg-6 card portfolio-card" style="width: 18rem;">
+                <img src="./images/p2.jpg" class="card-img-top" alt="laptop with code on the screen">
+                <div class="card-body">
+                    <h5 class="card-title">Study Guide</h5>
+                    <p class="card-text">HTML.
+                        <br>Creation of a study guide as part of pre-work for a bootcamp.
+                    </p>
+                    <a href="https://reets93.github.io/study-guide/" class="btn btn-primary">Go to the live project</a>
+                </div>
+            </div>
+            <!-- End Project 2 -->
+
+
+            <!-- Project 3 -->
+            <div class="column col-lg-6 card portfolio-card" style="width: 18rem;">
+                <img src="./images/p3.jpg" class="card-img-top" alt="laptop with code on the screen">
+                <div class="card-body">
+                    <h5 class="card-title">Portfolio Site</h5>
+                    <p class="card-text">HTML, CSS.
+                        <br>Building a portfolio site in HTML and CSS.
+                    </p>
+                    <a href="https://reets93.github.io/portfolio-site/" class="btn btn-primary">Go to the live
+                        project</a>
+                </div>
+            </div>
+        </div>
+        <!-- End Project 3 -->
+
+
+        <div class="row">
+            <!-- Project 4 -->
+            <div class="column col-lg-6 card portfolio-card" style="width: 18rem;">
+                <img src="./images/02-portfolio-1.jpg" class="card-img-top" alt="laptop with code on the screen">
+                <div class="card-body">
+                    <h5 class="card-title">Project 4 </h5>
+                    <p class="card-text">Coding Language.
+                        <br>This is a placeholder for a real project
+                    </p>
+                    <a href="#" class="btn btn-primary">Go to the live project</a>
+                </div>
+            </div>
+            <!-- End Project 4 -->
+
+
+            <!-- Project 5 -->
+            <div class="column col-lg-6 card portfolio-card" style="width: 18rem;">
+                <img src="./images/02-portfolio-2.jpg" class="card-img-top" alt="laptop with code on the screen">
+                <div class="card-body">
+                    <h5 class="card-title">Project 5</h5>
+                    <p class="card-text">Coding Language
+                        <br>This is a placeholder for a real project
+                    </p>
+                    <a href="#" class="btn btn-primary">Go to the live project</a>
+                </div>
+            </div>
+        </div>
+        <!-- End Project 5 -->
+        <!-- End Project Cards -->
+
+        </div>
     </section>
+    <!-- End Portfolio Section -->
 
 
+    <!-- Skills Section -->
+    <section class="skills container" id="skills">
+        <h1 class="display-4">Front-End Web Development Skills</h1>
+
+        <div class="row skills-list">
+            <div class="column col-lg-1"></div>
+            <div class="column col-lg-2 skills-item">
+                <h5>HTML</h5>
+            </div>
+            <div class="column col-lg-2 skills-item">
+                <h5>CSS</h5>
+            </div>
+            <div class="column col-lg-2 skills-item">
+                <h5>Bootstrap</h5>
+            </div>
+            <div class="column col-lg-2 skills-item">
+                <h5>Javascript</h5>
+            </div>
+            <div class="column col-lg-2 skills-item">
+                <h5>The DOM</h5>
+            </div>
+            <div class="column col-lg-1"></div>
+            <div class="column col-lg-2 skills-item">
+                <h5>APIs</h5>
+            </div>
+            <div class="column col-lg-2 skills-item">
+                <h5>JQuery</h5>
+            </div>
+            <div class="column col-lg-2 skills-item">
+                <h5>JSON</h5>
+            </div>
+            <div class="column col-lg-2 skills-item">
+                <h5>AJAX</h5>
+            </div>
+            <div class="column col-lg-2 skills-item">
+                <h5>Node.js</h5>
+            </div>
+            <div class="column col-lg-1"></div>
+            <div class="column col-lg-2 skills-item">
+                <h5>ES6</h5>
+            </div>
+            <div class="column col-lg-2 skills-item">
+                <h5>React</h5>
+            </div>
+            <div class="column col-lg-2 skills-item">
+                <h5>Responsive Design</h5>
+            </div>
+            <div class="column col-lg-2 skills-item">
+                <h5>Git</h5>
+            </div>
+            <div class="column col-lg-2 skills-item">
+                <h5>Deployment</h5>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- End of Skills Section -->
 
 
+    <!-- Contact Section -->
+    <section class="contact container" id="contact">
+        <h1 class="display-4">Contact</h1>
+
+        <div class="row contact-details">
+            <div class="column col-lg-6 contact-link" id="email">
+                <i class="fa-regular fa-envelope"></i>
+                <a href="mailto:hello@ritacarmen.com">hello@ritacarmencreative.com</a>
+            </div>
+            <div class="column col-lg-6 contact-link" id="github">
+                <i class="fa-brands fa-github"></i>
+                <a href="https://www.github.com/reets93">www.github.com/reets93</a>
+            </div>
+            <div class="column col-lg-6 contact-link" id="linkedin">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <a href="https://www.linkedin.com/in/ritafitchett">www.linkedin.com/in/ritafitchett</a>
+            </div>
+            <div class="column col-lg-6 contact-link" id="instagram">
+                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.instagram.com/in/ritacarmencreative">@ritacarmencreative</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Contact Section -->
+
+
+    <!-- Footer Section -->
+    <footer class="container-fluid">
+        <div class="footer-links">
+            <a id="email" href="mailto:hello@ritacarmencreative.com">
+                <img src="./images/287692_mail_icon.svg">
+            </a>
+            <a id="github" href="https://www.github.com/reets93">
+                <img src="./images/1964417_github_logo_media_social_icon.svg">
+            </a>
+            <a id="linkedin" href="https://www.linkedin.com/in/ritafitchett">
+                <img src="./images/5279114_linkedin_network_social network_linkedin logo_icon.svg">
+            </a>
+            <a id="instagram" href="www.instagram.com/ritacarmencreative">
+                <img src="./images/5279112_camera_instagram_social media_instagram logo_icon.svg">
+            </a>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
 
 </body>
-
 
 </html>
