@@ -37,17 +37,12 @@
     background-size: cover;
 }
 
-.navbar {
-    background-color: #EBF5FE;
+.bg-nav {
+    background-color: var(--bannercolor);
     color: var(--titlecolor);
 }
 
-
-.bg-light {
-    background-color: purple;
-}
-
-.navbar-brand {
+a {
     color: var(--titlecolor);
 }
 
@@ -151,4 +146,8 @@ a:hover img{
     [blur radius] 
     [optional spread radius] 
     [color]; */
+}
+
+.navbar-toggler-icon {
+    content:normal;
 }
