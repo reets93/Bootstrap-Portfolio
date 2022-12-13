@@ -19,7 +19,7 @@ Link to deployed site:
 https://reets93.github.io/bootstrap-portfolio
 
 
-![alt text](./images/screenshot.png)
+![alt text](./images/screenshot-v2.png)
 
 ## Credits
 N/A
