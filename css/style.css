@@ -44,6 +44,7 @@
 
 .navbar {
     padding-left: 10%;
+    margin-bottom:5%;
 }
 
 a {
@@ -52,6 +53,13 @@ a {
 
 .jumbotron {
     background:none;
+    margin-bottom: 5%;
+}
+
+#headshot-col {
+    display:flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .hero-img {
@@ -89,7 +97,7 @@ a {
     color: var(--titlecolor);
     text-align: center;
     text-justify: center;
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
 }
 
